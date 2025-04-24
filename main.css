@@ -117,3 +117,28 @@ p a:hover {
     font-size: 1.1rem;
     text-align: center;
   }
+  @media (max-width: 768px) {
+    body {
+      padding: 1rem;
+      font-size: 16px;
+    }
+  
+    .container, .card, .movie, .search-box {
+      width: 100% !important;
+      margin: 0 auto;
+      padding: 0.5rem;
+      box-sizing: border-box;
+    }
+  
+    input[type="text"], button {
+      width: 100%;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
