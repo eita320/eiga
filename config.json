@@ -1,0 +1,13 @@
+{
+    "displaySettings": {
+      "maxRanking": 10,
+      "maxRelated": 5,
+      "defaultImage": "./no-image.jpg",
+      "messages": {
+        "noResults": "映画が見つかりませんでした",
+        "fetchError": "データの取得に失敗しました",
+        "existFavorite": "この映画はすでにお気に入りに登録されています",
+        "addFavorite": "をお気に入りに追加しました"
+      }
+    }
+}

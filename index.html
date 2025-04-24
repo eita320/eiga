@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>映画検索アプリ</title>
+    <link href="./main.css" rel="stylesheet">
+</head>
+<body>
+    <h1>映画検索アプリ 🎬</h1>
+    
+    <!-- 映画検索 -->
+    <section id="searchSection">
+        <input type="text" id="movieTitle" placeholder="映画タイトルを入力">
+        <button id="searchButton">検索</button>
+    </section>
+
+    <!-- 検索履歴表示セクション -->
+    <section id="searchHistorySection">
+        <h3>🔍 検索履歴</h3>
+        <ul id="searchHistory"></ul>
+    </section>      
+    
+    <div id="movieInfo"></div>
+
+    <!-- 別ページに移動するリンク -->
+    <section>
+        <p><a href="favorites.html">💖 お気に入り一覧へ</a></p>
+        <p><a href="ranking.html">🏆 人気ランキングへ</a></p>
+    </section>
+
+    <!-- 関連作品 -->
+    <section id="relatedSection">
+        <h2>🎬 関連作品</h2>
+        <div id="relatedMovies"></div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>

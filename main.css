@@ -1,0 +1,119 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('./abc.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+}
+
+#searchSection {
+    margin: 20px auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#movieTitle {
+    width: 70%;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#searchButton:hover {
+    background-color: #0056b3;
+}
+
+section {
+    margin: 20px;
+}
+
+p a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+#relatedSection h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+#movieInfo {
+    color: white; /* 文字色はそのまま */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 影をつけて見やすく */
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明の背景を追加 */
+    padding: 10px; /* 余白を作る */
+    border-radius: 8px; /* 角を丸くしておしゃれに */
+    display: inline-block; /* 必要な範囲だけボックスに */
+}
+
+/* 検索履歴セクションのスタイル調整 */
+#searchHistorySection {
+    margin: 1rem auto; /* 上下の余白を減らす */
+    padding: 1rem;
+    background: #ffffff; /* 背景を純白に */
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 影を追加 */
+    max-width: 400px; /* 最大幅を制限 */
+  }
+  
+  #searchHistory {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #searchHistory li {
+    padding: 8px 12px;
+    margin: 4px 0;
+    background: #f8f9fa;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: #2d3748; /* 文字色をダークグレーに */
+    font-size: 0.9rem;
+    border: 1px solid #e2e8f0; /* ボーダー追加 */
+  }
+  
+  #searchHistory li:hover {
+    background: #e9ecef;
+    transform: translateX(5px);
+  }
+  
+  #searchHistorySection h3 {
+    color: #2c3e50; /* タイトル色変更 */
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    text-align: center;
+  }
